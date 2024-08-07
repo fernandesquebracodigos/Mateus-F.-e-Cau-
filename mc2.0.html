@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladri di Cuori - Grupo de Dança Italiana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: rgba(76, 175, 80, 0.8); /* Verde com transparência */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            background-color: rgba(76, 175, 80, 0.8); /* Verde com transparência */
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://i.pinimg.com/736x/cd/6c/f0/cd6cf0989b0a02d8d76fcb7d28ce493d.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3em;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+            border-radius: 10px;
+        }
+        .about {
+            text-align: center;
+        }
+        .about h2 {
+            font-size: 2em;
+            color: #4CAF50; /* Verde */
+        }
+        .about p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: calc(33% - 20px);
+            border-radius: 10px;
+        }
+        .contact {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-top: 0;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact form button {
+            background-color: white;
+            color: #4CAF50; /* Verde */
+            border: none;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        .social-buttons {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .social-buttons a {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .social-buttons a:hover {
+            background-color: #45a049; /* Tom de verde mais escuro */
+        }
+        .contact-info {
+            margin: 20px 0;
+        }
+        .contact-info a {
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .contact-info a:hover {
+            background-color: #45a049; /* Tom de verde mais escuro */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ladri di Cuori</h1>
+        <nav>
+            <a href="#about">Sobre</a>
+            <a href="#gallery">Galeria</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Bem-vindo ao Ladri di Cuori!</h2>
+    </section>
+
+    <div class="container">
+
+        <section id="about" class="about">
+            <h2>Sobre o Grupo</h2>
+            <p>O Ladri di Cuori é um grupo de dança italiana apaixonado por preservar e promover as tradições da dança italiana. Com anos de experiência, trazemos uma combinação vibrante de performances ao vivo e aulas para todas as idades. Nossa missão é compartilhar a alegria e a cultura da dança italiana com o mundo.</p>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <img src="https://www.sescpr.com.br/wp-content/uploads/2019/05/Ladri-di-Cuori-1-720x406.jpeg" alt="Dança 1">
+            <img src="https://i.ytimg.com/vi/Q5VWDS-UMVo/sddefault.jpg" alt="Dança 2">
+            <img src="https://sardegnaterramia.wordpress.com/wp-content/uploads/2011/08/20090417110641.jpg?w=584" alt="Dança 3">
+            <img src="https://scontent.fcac2-1.fna.fbcdn.net/v/t1.18169-9/424839_143643305784901_140520763_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=f798df&_nc_ohc=qnHJqpIaxfUQ7kNvgGUMqjr&_nc_ht=scontent.fcac2-1.fna&oh=00_AYC1D0ZCbBvjn5OPyKwKr6xGZLRvDfpzz89RmWzKY7oVqg&oe=66DB072A" alt="Dança 4">
+            <img src="" alt="Dança 5">
+            <img src="dance6.jpg" alt="Dança 6">
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <form action="mailto:fmagofer@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="social-buttons">
+                <a href="https://www.instagram.com/ladridicuori.oficial/" target="_blank">Siga-nos no Instagram</a>
+            </div>
+            <div class="contact-info">
+                <a href="tel:+5545999785179">Ligue para nós: (45) 99978-5179</a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ladri di Cuori. Todos os direitos reservados.</p>
+        <p>Rua Minas Gerais, 2795 - Centro</p>
+    </footer>
+
+</body>
+</html>
